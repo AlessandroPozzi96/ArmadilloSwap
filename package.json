@@ -1,5 +1,5 @@
 {
-  "name": "pancake-frontend",
+  "name": "armadillo-frontend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,12 +11,6 @@
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'",
     "generate:config": "ts-node --compiler-options '{\"module\":\"commonjs\"}' scripts/generateConfig"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn format",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
   },
   "browserslist": {
     "production": [
