@@ -33,3 +33,6 @@ yarn-error.log*
 debug.log*
 
 yarn.lock
+
+# Local Netlify folder
+.netlify
