@@ -1,0 +1,14 @@
+.farmClass{
+    /* width:150%; */
+    height:150%;
+    margin:100px;
+    display: flex;
+    justify-content: center;
+}
+
+.farmClass > div{
+    margin-left: 20px;
+    margin-right: 20px;
+    height:400px;
+
+}

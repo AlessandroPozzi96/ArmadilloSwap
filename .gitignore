@@ -1,40 +1,35 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Other files and folders
-.settings/
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# testing
+/coverage
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# next.js
+/.next/
+/out/
+.idea/
 
+# production
+/build
 
-# Created by https://www.toptal.com/developers/gitignore/api/react
-# Edit at https://www.toptal.com/developers/gitignore?templates=react
+# misc
+.DS_Store
+.eslintcache
 
-### react ###
-.DS_*
-*.log
-logs
-**/*.backup.*
-**/*.back.*
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-node_modules
-bower_components
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log*
 
-*.sublime*
-
-psd
-thumb
-sketch
-
-# End of https://www.toptal.com/developers/gitignore/api/react
+yarn.lock
